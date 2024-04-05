@@ -45,10 +45,13 @@ int main()
 			wm.ExitSystem();
 			break;
 		case 1: //添加职工
+			wm.add_Emp();
 			break;
 		case 2: //显示职工
-			break;
+			wm.Show_Emp();
+			break;			
 		case 3: //删除职工
+			wm.Del_Emp();
 			break;
 		case 4: //修改职工
 			break;

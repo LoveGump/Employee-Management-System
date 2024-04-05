@@ -13,7 +13,7 @@ void Boss::ShowInfo()
 {
 	cout << "职工编号：" << this->m_ID
 		<< "\t职工姓名：" << this->m_name
-		<< "\t职工岗位：" << this->m_DeptID
+		<< "\t职工岗位：" << this->getDepthName()
 		<< "\t岗位职责：管理公司，潇洒" << endl;
 
 }
