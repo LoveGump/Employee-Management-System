@@ -7,6 +7,8 @@ using namespace std;
 class Worker
 {
 public:
+	//构造函数
+
 	//显示个人信息
 	virtual	void ShowInfo() = 0;
 	//获取岗位名称
@@ -17,6 +19,8 @@ public:
 
 	//职工姓名
 	string m_name;
+
+
 	//部门编号
 	int m_DeptID;
 

@@ -3,9 +3,32 @@ using namespace std;
 #include"WorkerManager.h"
 
 
+#include"Worker.h"
+#include"Employee.h"
+#include"Manager.h"
+#include"Boss.h"
+
 int main()
 {
+	////测试代码
+	//Worker* worker = NULL;
+	//worker = new Employee(1, "张三", 1);
+	//worker->ShowInfo();
+	//delete worker;
 
+
+	//worker = new Manager(2, "李四", 2);
+	//worker->ShowInfo();
+	//delete worker;
+
+
+	//worker = new Boss(3, "赵武", 3);
+	//worker->ShowInfo();
+	//delete worker;
+	
+
+
+	
 	//实例化管理者对象
 
 	WorkerManager wm;

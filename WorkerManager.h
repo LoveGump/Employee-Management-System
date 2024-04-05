@@ -13,6 +13,7 @@ public:
 
 	//推出系统
 	void ExitSystem();
+
 	//析构函数
 	~WorkerManager();
 
